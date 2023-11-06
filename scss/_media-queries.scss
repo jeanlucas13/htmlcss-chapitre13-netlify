@@ -1,0 +1,26 @@
+/*ltelephone */
+@mixin xs {
+    @media (max-width: 480px){
+        @content;
+    }
+
+}
+/*landscape phone et tablette*/
+@mixin sm {
+    @media (max-width: 767px){
+        @content;
+    }
+
+}
+/*tablette et ordinateur portable*/
+@mixin md {
+    @media (min-width: 768) and (max-width: 979px){
+        @content;
+    }
+/*ordinateur large*/
+}@mixin xl {
+    @media (min-width: 1200px){
+        @content;
+    }
+
+}
